@@ -195,7 +195,6 @@ const testimonialsFrequently = [
           {features.map((feature, index) => (
             <FeatureItem
               key={index}
-{/*               imgSrc={feature.imgSrc} */}
               altText={feature.altText}
               label={feature.label}
               description={feature.description}
@@ -217,7 +216,6 @@ const testimonialsFrequently = [
               {advantages.map((item, index) => (
                 <AdvantageItem
                   key={index}
-{/*                   imgSrc={item.imgSrc} */}
                   title={item.title}
                   description={item.description}
                 />
