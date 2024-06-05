@@ -36,12 +36,12 @@ function MyComponent() {
         <section className="inner-container">
           <div className="logo-container">
             <div className="logo-text">
-              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/8a4d2a1ea1dc096d24804e10b7d7d58275afc15af7fb227542141317025732b5?apiKey=7e91cb269c0144af96e9f3d2d5576b41&" alt="Site Logo" className="logo" />
+{/*               <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/8a4d2a1ea1dc096d24804e10b7d7d58275afc15af7fb227542141317025732b5?apiKey=7e91cb269c0144af96e9f3d2d5576b41&" alt="Site Logo" className="logo" /> */}
               <div className="logo-subtext">TM</div>
             </div>
             {contactInfo.map(info => (
               <div className="contact-info" key={info.text}>
-                <img loading="lazy" src={info.imgSrc} alt={info.altText} className="contact-icon" />
+{/*                 <img loading="lazy" src={info.imgSrc} alt={info.altText} className="contact-icon" /> */}
                 <div className="contact-text">{info.text}</div>
               </div>
             ))}
