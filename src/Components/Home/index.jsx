@@ -171,7 +171,7 @@ const testimonialsFrequently = [
 
 
   return (
-    <div>
+    <div className="app-main-container">
       <Navbar/>
 
 

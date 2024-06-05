@@ -1,3 +1,10 @@
+.app-main-container{
+  background-color:lightgray;
+  mix-blend-mode: soft-light;
+  color: #000;
+  border-radius: 8px;
+}
+
 .testimonial-section {
     display: flex;
     flex-direction: column;
@@ -569,7 +576,7 @@ flex-direction: row;
 
 
 .frame {
-  background-color: #000000;
+  /* background-color: #000000; */
   border-radius: 8px;
   height: 508px;
   overflow: hidden;
