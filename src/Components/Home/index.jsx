@@ -17,7 +17,7 @@ function TestimonialItem({ imageSrc, title, content, author }) {
   return (
     <article className="testimonial-item">
       <div className="testimonial-image-wrapper">
-        <img loading="lazy" src={imageSrc} alt={`Image of ${author}`} className="testimonial-image" />
+{/*         <img loading="lazy" src={imageSrc} alt={`Image of ${author}`} className="testimonial-image" /> */}
       </div>
       <div className="testimonial-content-wrapper">
         <h3 className="testimonial-title">{title}</h3>
@@ -100,7 +100,7 @@ function FeatureItem({ imgSrc, altText, label, description }) {
   return (
     <>
       <div className="feature-item">
-        <img loading="lazy" src={imgSrc} alt={altText} className="feature-img" />
+{/*         <img loading="lazy" src={imgSrc} alt={altText} className="feature-img" /> */}
         <div className="feature-label">{label}</div>
       </div>
       <p className="feature-description">{description}</p>
@@ -114,7 +114,7 @@ function FeatureItem({ imgSrc, altText, label, description }) {
   return (
     <>
       <div className="feature-item">
-        <img loading="lazy" src={imgSrc} alt={altText} className="feature-img" />
+{/*         <img loading="lazy" src={imgSrc} alt={altText} className="feature-img" /> */}
         <div className="feature-label">{label}</div>
       </div>
       <p className="feature-description">{description}</p>
@@ -180,12 +180,12 @@ const testimonialsFrequently = [
 
       <div className="main-container">
         <div className="image-div">
-          <img
+{/*           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/e9860dd8-4209-49ce-93a8-902ef837b89a?apiKey=7e91cb269c0144af96e9f3d2d5576b41&"
             alt=""
             className="main-img"
-          />
+          /> */}
         </div>
         <div className="content-div ">
           <div className="content-header ">
@@ -195,7 +195,7 @@ const testimonialsFrequently = [
           {features.map((feature, index) => (
             <FeatureItem
               key={index}
-              imgSrc={feature.imgSrc}
+{/*               imgSrc={feature.imgSrc} */}
               altText={feature.altText}
               label={feature.label}
               description={feature.description}
@@ -217,7 +217,7 @@ const testimonialsFrequently = [
               {advantages.map((item, index) => (
                 <AdvantageItem
                   key={index}
-                  imgSrc={item.imgSrc}
+{/*                   imgSrc={item.imgSrc} */}
                   title={item.title}
                   description={item.description}
                 />
@@ -225,12 +225,12 @@ const testimonialsFrequently = [
             </div>
           </div>
           <aside className="image-div">
-            <img
+{/*             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/4a044043-9a25-4e9d-b85c-e1f297f1fc2a?apiKey=7e91cb269c0144af96e9f3d2d5576b41&"
               className="main-image"
               alt="Uifry features"
-            />
+            /> */}
           </aside>
         </div>
       </div>
@@ -373,27 +373,27 @@ const testimonialsFrequently = [
           <div className="overlap-3">
             <div className="element">
               <div className="mockup-wrapper">
-                <img className="mockup" alt="i-phone-1" src={iphone3} />
-                <img className="mockup-2" alt="Mockup" src={screen3} />
+{/*                 <img className="mockup" alt="i-phone-1" src={iphone3} />
+                <img className="mockup-2" alt="Mockup" src={screen3} /> */}
               </div>
             </div>
             <div className="element-2">
               <div className="overlap-4">
-                <img className="shadow" alt="Shadow" src="{screen2}" />
+{/*                 <img className="shadow" alt="Shadow" src="{screen2}" />
                 <img className="iphone-pro-max" alt="Iphone pro max" src={iphone2} />
-                <img className="img" alt="Mockup" src={screen2} />
+                <img className="img" alt="Mockup" src={screen2} /> */}
               </div>
             </div>
-            <img className="shadow-2" alt="Shadow" src={"screen3"} />
+{/*             <img className="shadow-2" alt="Shadow" src={"screen3"} /> */}
             <div className="img-wrapper">
-            <img className="iphone-pro-max" alt="Iphone pro max" src={iphone1} />
-              <img className="mockup-2" alt="Mockup" src="{screen3} "/>
+{/*             <img className="iphone-pro-max" alt="Iphone pro max" src={iphone1} />
+              <img className="mockup-2" alt="Mockup" src="{screen3} "/> */}
             </div>
           </div>
         </div>
         
-        <img className="star" alt="Star" src="star-7.svg" />
-        <img className="star-2" alt="Star" src="star-6.svg" />
+{/*         <img className="star" alt="Star" src="star-7.svg" />
+        <img className="star-2" alt="Star" src="star-6.svg" /> */}
       </div>
     </div>
 
